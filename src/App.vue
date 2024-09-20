@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <el-button type="primary" @click="console.log(111)">click</el-button>
+    <!-- <el-button type="primary" @click="console.log(111)">click</el-button> -->
     <img alt="加载中" id="character" src="@/assets/character.png" draggable="true">
     <img alt="加载中" id="city" onmousedown="return false;" src="@/assets/city.jpg"/>
   </div>
